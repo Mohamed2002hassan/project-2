@@ -1,0 +1,377 @@
+@import url( "bootstrap.min.css");
+@import url("all.css");
+@import url("fonts.css");
+@import url("responsive.css");
+@import url("animate.css");
+
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family:  Poppins-Regular;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+ul{
+    padding-left:  0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*///////////////////////////////////////////////*/
+
+.header{
+    position: absolute;
+    width: 100%;
+ }
+ .header .navbar{
+     background-color: transparent;
+     border-bottom: 1px solid grey;
+ }
+ .header .navbar .socail a{
+     color: grey;
+     padding-left:  20px; 
+     margin-left: 20px;
+     border-left: 1px solid grey;
+     transition: all .3s;
+     font-size: 14px;
+ }
+ .header .navbar .socail a:hover{
+     color: #ff7506;
+ }
+ .header .navbar .navbar-brand{
+     width: 80px;
+     padding: 15px 0;
+ }
+ .header .navbar .navbar-nav .nav-item{
+     margin: 0 15px;
+ }
+ .header .navbar .navbar-nav .nav-item a{
+     color: #fff;
+     transition: all .3s;
+     font-size: 16px;
+     font-weight: 500;
+ }
+ .header .navbar .navbar-nav .nav-item:hover a{
+     color: #ff7506;
+ }
+ /*//////////////////////////////////////////////////////*/
+ .header-2{
+     padding: 15px 0;
+     background-color: transparent;
+     position: absolute;
+     width: 100%;
+     top: 100px;
+     /* position: fixed; */
+ }
+ .header-2 .collapse .navbar-nav li a {
+     transition: all .3s;
+ }
+ .header-2 .collapse .navbar-nav li a:hover {
+     color: #ff7506;
+ }
+ 
+ .header-2  .btn-bt a{
+     padding: 15px 23px;
+     color: #fff;
+     background-color: #ff7506;
+     border-radius: 8px;
+     font-size: 14px;
+     font-weight: 800;
+     position: relative;
+     display: inline-block;
+     overflow: hidden;
+     transition: all .3s;
+     
+ }
+ .header-2  .btn-bt a i{
+     font-size: 10px;
+     margin-left: 3px;
+ }
+ .header-2  .btn-bt a::before{
+     content: "";
+     position: absolute;
+     height: 50px ;
+     width: 50px;
+     border: 5px solid #E6D54F;
+     top: -25px;
+     left: -35px;
+     border-radius: 50px 366px 108px 10px;
+     transition: all .3s;
+    
+ }
+ .header-2  .btn-bt a:hover{
+     background-color: #fff;
+     color: #ff7506;
+ }
+ .header-2  .btn-bt a:hover:before{
+     top: -50px;
+ }
+ .header-2 .collapse .navbar-nav .nav-item a{
+     padding-right: 26px;
+     color: #fff;
+     font-weight: 800;
+     font-size: 16px;
+ }
+ /*////////////////////////////////////////////*/
+
+ .home{
+    height: 95vh;
+    background-image:url(../images/bannerhome1.jpg);
+    background-size: cover;
+    background-repeat: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+}
+.home .row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 71%;
+    margin-top: 150px;
+}
+
+.home .row .item h1{
+    font-size: 90px;
+    color: #fff;
+    font-weight: 100;
+}
+.home .row .item p{
+    font-size: 22px;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 300;
+    padding: 20px 70px;
+}
+/*////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+.news{
+    padding: 70px 0;
+    background-color: #f3f3f4;
+}
+.news .head{
+    margin: 50px 0;
+}
+.news .head span{
+    color: #ff7506;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.team .head h1{
+    font-weight: 900;
+}
+.news .item .item-tittle{
+    margin-top: 40px;
+}
+ .news .item .img{
+    position: relative;
+    transition: all .3s;
+}
+.news .item .img::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    background-color:rgba(2, 14, 40, 0.65);
+    opacity: 0;
+} 
+.news .item .img:hover::after{
+    opacity: 1;
+    transition: all .3s;
+}
+
+
+.news .item .item-tittle span{
+    position: relative;
+    color: #ff7506;
+    font-size: 25px;
+    padding-top: 30px;
+    z-index: 1;
+    font-weight: bold;
+}
+.news .item .item-tittle span::after{
+    content: "05";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -5px;
+    top: -25px;
+    font-size: 80px;
+    font-weight: 800;
+    z-index: -1;
+    color: #aaacab;
+}
+.news .item .item-tittle h3 a{
+    color: #798883;
+    transition: all .3s;
+}
+.news .item .item-tittle h3:hover a{
+    color: #ff7506;
+}
+.news .item .item-tittle p{
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color:#020E28 ;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+}
+/*//////////////////////////////////////////*/
+
+
+.footer{
+    padding: 70px 0;
+    background-image: url(../images/imgbgfooter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer .row .list h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.footer .row .list ul li{
+    padding: 15px 0;
+}
+.footer .row .list ul li a{
+    color: rgba(255,255,255,0.85);
+    transition: all .3s;
+    position: relative;
+}
+
+
+.list .thumb {
+    width: 90px;
+    height: 100px;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.footer .row-2{
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #798883;
+    padding-top: 30px ;
+    margin-top: 50px;
+}
+.footer .link a{
+    margin-right: 10px;
+    color: rgba(255,255,255,0.85);
+}
+.footer .image img{
+    width: 80px;
+}
+.footer .copywriter p{
+    font-size: 16px;
+    color: rgba(255,255,255,0.85);
+}
+.footer .copywriter p a{
+    color: #ff7506;
+}
+.footer .list li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #ff7506;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    transition: all .3s;
+}
+.footer .list li a:hover::after{
+    width: 100%;
+}
+/*//////////////////////////////////////////////////*/
+@media screen and (min-width:993px) and (max-width:1200px){
+    
+          
+    /*///////////////////////////////////////////////*/
+    
+    /*///////////////////////////////////////////*/
+    .home .row{
+        height: 80%;
+    }
+    .home .row .item span{
+        font-size: 16px;
+    }
+    .home .row .item h1{
+        font-size: 80px;
+        font-weight: 300;
+    }
+    .home .row .item p{
+        font-size: 20px;
+        padding: 20px 20px;
+    }
+}
+    /*//////////////////////////////*/
+
+    @media screen and (min-width:771px) and (max-width:992px){
+        header .navbar .navbar-nav {
+            display: none;
+        }
+        /*///////////////////////////////////////////////*/
+      
+        /*///////////////////////////////////////////*/
+        
+        .home .row .item h1{
+            font-size: 60px;
+        }
+        .home .row .item p{
+            font-size: 20px;
+            padding: 20px 20px;
+        }
+    }
+        /*///////////////////////////////////////////*/
+        /*//////////////////////////////////////*/
+@media screen and (min-width:576px) and (max-width:770px){
+    .header .navbar .navbar-nav {
+        display: none;
+    }
+    /*///////////////////////////////////////////////*/
+    
+    /*///////////////////////////////////////////*/
+    .home .row .item span{
+        font-size: 14px;
+    }
+    .home .row .item h1{
+        font-size: 50px;
+    }
+    .home .row .item p{
+        font-size: 20px;
+        padding: 20px 20px;
+    }
+}
+    /*///////////////////////////////////////*/
+    @media screen and (max-width:575px){
+     
+        .header .navbar .navbar-nav {
+            display: none;
+        }
+        /*///////////////////////////////////////////////*/
+        
+        /*///////////////////////////////////////////*/
+        .home .row .item span{
+            font-size: 14px;
+        }
+        .home .row .item h1{
+            font-size: 40px;
+        }
+        .home .row .item p{
+            font-size: 16px;
+            padding: 20px 20px;
+        }
+    }
+        
+        /*///////////////////////////////////////*/
+
+
