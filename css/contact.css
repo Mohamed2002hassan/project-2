@@ -12,6 +12,8 @@ img{
 }
 body{
     font-family:  Poppins-Regular;
+    font-family: 'Work Sans', sans-serif;
+
 }
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -121,7 +123,7 @@ a{
  /*////////////////////////////////////////////*/
 
  .home{
-    height: 95vh;
+    height: 90vh;
     background-image:url(../images/bannerhome1.jpg);
     background-size: cover;
     background-repeat: 100% 100%;
@@ -175,9 +177,10 @@ a{
  }
  .contact .content input{
     display: inline-block;
+    padding: 5px 20px;
     margin-bottom: 30px;
-    border-radius: 5px;
-    border-color: #fff;
+    border-radius: 20px;
+    border-color: #ff7506;
  }
  .contact .content{
     margin-top: 50px;
@@ -185,16 +188,17 @@ a{
  .contact .content form .name, .mail{
     width: 48%;
  }
- .contact .content form .mail{
-    margin-left: 3%;
+ .contact .content form .name{
+    margin-right: 3%;
  }
  .contact .content form .sub{
     width: 100%;
  }
  .contact .content form textarea{
     width: 100%;
-    border-radius: 5px;
-    border-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #ff7506;
  }
  .contact  .btn-bt{
     margin-top: 50px;
@@ -250,6 +254,7 @@ a{
 .contact .item-2 .card{
     background-color: #f3f3f3;
     border: 5px solid #fff;
+    width: 95%;
 }
 .contact .item-2 .card img{
     width: 100px;
@@ -344,7 +349,7 @@ a{
     margin-top: 50px;
 }
 .footer .link a{
-    margin-right: 10px;
+    margin-right: 4px;
     color: rgba(255,255,255,0.85);
 }
 .footer .image img{
@@ -370,6 +375,9 @@ a{
 }
 .footer .list li a:hover::after{
     width: 100%;
+}
+.footer .row .list ul li a{
+    font-size: 14px;
 }
 /*//////////////////////////////////////////////////*/
 @media screen and (min-width:993px) and (max-width:1200px){

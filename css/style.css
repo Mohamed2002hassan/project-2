@@ -12,6 +12,7 @@ img{
 }
 body{
     font-family:  Poppins-Regular;
+    font-family: 'Work Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -346,8 +347,8 @@ margin: 50PX auto;
 }
 .about .item h3{
     width: 200px;
-    font-size: 210px;
-    font-weight: 900;
+    font-size: 180px;
+    font-weight: 800;
     background-image: url(../images/imgbg25.jpg);
     background-repeat: no-repeat;
     background-position: -190px -165px;
@@ -652,6 +653,7 @@ margin: 50PX auto;
     color: #aaacab;
 }
 .news .item .item-tittle h3 a{
+    font-size: 25px;
     color: #798883;
     transition: all .3s;
 }
@@ -711,14 +713,14 @@ margin: 50PX auto;
     margin-top: 50px;
 }
 .footer .link a{
-    margin-right: 10px;
+    margin-right: 4px;
     color: rgba(255,255,255,0.85);
 }
 .footer .image img{
     width: 80px;
 }
 .footer .copywriter p{
-    font-size: 16px;
+    font-size: 13px;
     color: rgba(255,255,255,0.85);
 }
 .footer .copywriter p a{
@@ -738,6 +740,10 @@ margin: 50PX auto;
 .footer .list li a:hover::after{
     width: 100%;
 }
+.footer .row .list ul li a{
+    font-size: 14px;
+}
+
 
 
 
@@ -1077,10 +1083,13 @@ margin: 50PX auto;
         display: block;
         
     }
+    .logo .image{
+        width:150px ;
+    }
     /*////////////////////////////*/
     .service  .row .content h1{
         display: inline-block;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
     }
     /*/////////////////////////////*/
@@ -1103,7 +1112,7 @@ margin: 50PX auto;
         order: 2;
     }
     .we .item-2 h1{
-        font-size: 80px;
+        font-size: 58px;
         font-weight: 500;
     }
     .we .item-2 p{
@@ -1114,7 +1123,7 @@ margin: 50PX auto;
         font-size: 16px;
     }
     .bulter .row .item h1{
-        font-size: 65px;
+        font-size: 55px;
         font-weight: 600;
     }
 }

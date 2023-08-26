@@ -12,6 +12,8 @@ img{
 }
 body{
     font-family:  Poppins-Regular;
+    font-family: 'Work Sans', sans-serif;
+
 }
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -251,14 +253,14 @@ a{
     margin-top: 50px;
 }
 .footer .link a{
-    margin-right: 10px;
+    margin-right: 4px;
     color: rgba(255,255,255,0.85);
 }
 .footer .image img{
     width: 80px;
 }
 .footer .copywriter p{
-    font-size: 16px;
+    font-size: 13px;
     color: rgba(255,255,255,0.85);
 }
 .footer .copywriter p a{
@@ -278,6 +280,10 @@ a{
 .footer .list li a:hover::after{
     width: 100%;
 }
+.footer .row .list ul li a{
+    font-size: 14px;
+}
+/*///////////////////////////////////////////*/
 
 @media screen and (min-width:993px) and (max-width:1200px){
     
@@ -409,12 +415,18 @@ a{
     }
     
     /*///////////////////////////////////////*/
+    .logo{
+        padding-top: 0;
+    }
     .logo .item{
         display: none;
     }
     .logo .item1{
         display: block;
         
+    }
+    .logo .item img{
+        width: 350px;
     }
 }
     /*///////////////////////////////////////////*/
