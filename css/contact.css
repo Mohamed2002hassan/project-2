@@ -71,6 +71,7 @@ a{
      top: 100px;
      /* position: fixed; */
  }
+ 
  .header-2 .collapse .navbar-nav li a {
      transition: all .3s;
  }
@@ -90,6 +91,8 @@ a{
      overflow: hidden;
      transition: all .3s;
      
+ }
+ .header-2  .btn-bt{
  }
  .header-2  .btn-bt a i{
      font-size: 10px;
@@ -514,4 +517,5 @@ a{
         display: block;
         
     }
+    
     }
