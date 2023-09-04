@@ -142,9 +142,9 @@ a{
 }
 
 .home .row .item h1{
-    font-size: 90px;
+    font-size: 80px;
     color: #fff;
-    font-weight: 100;
+    font-weight: 400;
 }
 .home .row .item p{
     font-size: 22px;
@@ -499,6 +499,9 @@ a{
         /*///////////////////////////////////////////////*/
         
         /*///////////////////////////////////////////*/
+        .home{
+            height: 80vh;
+        }
         .home .row .item span{
             font-size: 14px;
         }
@@ -507,7 +510,7 @@ a{
         }
         .home .row .item p{
             font-size: 16px;
-            padding: 20px 20px;
+            padding: 20px 15px;
         }
          /*///////////////////////////////////////*/
     .logo .item{
